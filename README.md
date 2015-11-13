@@ -1,35 +1,39 @@
-Base64 plugin for Cordova / PhoneGap
+#WIP - do not use! #
+
+
+Base64 encoding plugin for Cordova / PhoneGap
 ======================================================
 
-This Plugin is used to encode base64 of any file, it uses js code for iOS, but incase of android it uses native code to handle android versions lower then v.3
+This plugin is used to encode image files to base64 using javascript and a HTML5 canvas.
 
-## Prerequisites
-```js
-phonegap local plugin add org.apache.cordova.device
-```
+### ! IMPORTANT ! ###
+Older browsers found in older platform versions (e.g. Android API < 3) will not support this plugin!
 
-## Usage
-
-Example Usage: 
+## Example Usage: 
 
 ```js
-//filePath is the absolute path to the file(/mnt/sdcard/...)
-window.plugins.Base64.encodeFile(filePath, function(base64){
- 			console.log('file base64 encoding: ' + base64);
- 		});
+// window.plugins.Base64.encodeFile(filepath, success, failure, options);
+// - filepath 	- absolute path to the file e.g. (/mnt/sdcard/...)
+// - success 	- callback function to receive encoded file string
+// - failure    - callback function to handle failed encoding
+// - options    - size options, default -  { max_width: 800, max_height: 600 }
+
+window.plugins.Base64.encodeFile(myFile, function(base64){
+	console.log('file base64 encoding: ' + base64);
+});
 ```
 
 ## Installation 
 
 for Cordova >= 3.0.0
 
-phonegap local plugin add https://github.com/hazemhagrass/phonegap-base64.git
+phonegap local plugin add https://github.com/Joewsh/cordova-plugin-base64-joewsh.git
 
-cordova plugin add https://github.com/hazemhagrass/phonegap-base64.git
+cordova plugin add https://github.com/Joewsh/cordova-plugin-base64-joewsh.git
 
 for Cordova >= 5.0.0
 
-cordova plugin add com-badrit-base64
+cordova plugin add cordova-plugin-base64-joewsh
 
 This has been successfully tested on Cordova 3.0 to 3.1.
 

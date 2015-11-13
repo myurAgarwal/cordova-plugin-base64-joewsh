@@ -1,14 +1,14 @@
 /**
  * 
- * Phonegap Base64 plugin
+ * cordova-plugin-base64-joewsh
  * 
  * Version 1.0
  * 
- * Hazem Hagrass 2013
+ * Joewsh 2015
  *
  */
 
-package com.badrit.Base64;
+package com.joewsh.Base64;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
