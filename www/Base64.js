@@ -25,6 +25,9 @@ Base64.prototype.encodeFile = function(filePath, sucess, failure, opts) {
 			var dataUri = c.toDataURL("image/png");
 			sucess(dataUri);
 		};
+		img.onerror = function(e){
+			failure(e);
+		}
 		img.src = filePath;
 	} catch (e){
 		failure(e);
