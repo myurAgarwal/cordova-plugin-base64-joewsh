@@ -1,5 +1,5 @@
 
-Base64 encoding plugin for Cordova / PhoneGap
+Base64 encoding plugin for Cordova
 ======================================================
 
 This plugin is used to encode image files to base64 using javascript and a HTML5 canvas.
