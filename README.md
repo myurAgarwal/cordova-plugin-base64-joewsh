@@ -1,5 +1,3 @@
-#WIP - do not use! #
-
 
 Base64 encoding plugin for Cordova / PhoneGap
 ======================================================
