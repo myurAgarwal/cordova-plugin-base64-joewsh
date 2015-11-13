@@ -2,7 +2,7 @@
  * 
  * cordova-plugin-base64-joewsh
  * 
- * Version 1.0
+ * Version 1.1.0
  * 
  * Joewsh 2015
  *
