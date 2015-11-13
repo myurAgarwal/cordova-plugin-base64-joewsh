@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-base64-joewsh",
   "version": "1.0.0",
-  "description": "Cordova Base64 Plugin",
+  "description": "Plugin to encode local image files to base64",
   "cordova": {
     "id": "cordova-plugin-base64-joewsh",
     "platforms": [
