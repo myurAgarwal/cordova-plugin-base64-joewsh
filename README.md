@@ -25,17 +25,11 @@ window.plugins.Base64.encodeFile(myFile, function(base64){
 
 ## Installation 
 
-for Cordova >= 3.0.0
-
-phonegap local plugin add https://github.com/Joewsh/cordova-plugin-base64-joewsh.git
-
 cordova plugin add https://github.com/Joewsh/cordova-plugin-base64-joewsh.git
 
-for Cordova >= 5.0.0
+or 
 
 cordova plugin add cordova-plugin-base64-joewsh
-
-This has been successfully tested on Cordova 3.0 to 3.1.
 
 ## MIT Licence
 
