@@ -23,7 +23,7 @@ window.plugins.Base64.encodeFile(myFile, function(base64){
 
 ## Installation 
 
-cordova plugin add https://github.com/Joewsh/cordova-plugin-base64-joewsh.git
+cordova plugin add https://github.com/myurAgarwal/cordova-plugin-base64-joewsh.git
 
 or 
 
